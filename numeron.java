@@ -11,7 +11,7 @@ public class numeron {
 		int[] answer = new int[n];
 
 		int i, j = 0;
-		int eat;
+		int eat = 0;
 		int bite = 0;
 		int cnt = 0; //手数カウント用
 		int range = 1;
@@ -94,9 +94,9 @@ public class numeron {
 
 			cnt++; //手数カウント
 
-			if (bite < n)
+			if (eat < n)
 				System.out.println((bite - eat) + "BITE、" + eat + "EATです。\n");
-		} while (bite < n);
+		} while (eat < n);
 
 		System.out.println("せいかいです。\n答えは");
 		for (i = 0; i < n; i++) {
