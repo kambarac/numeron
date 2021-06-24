@@ -56,6 +56,7 @@ public class numeron {
 
 		do {
 			do {
+				i = 0;
 				System.out.println(n + "桁の数字を入力してください☟");
 				num = stdIn.nextInt(); //数字入力
 
